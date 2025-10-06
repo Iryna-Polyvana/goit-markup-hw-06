@@ -160,12 +160,66 @@
         fill: #2f2f37;
     }
 
-    .mobile-menu-container {
+    .mobile-menu-section {
         position: relative;
         height: 100%;
     }
 
-    .mobile-menu-nav .mobile-menu-nav-list .mobile-menu-nav-item .mobile-nav-link
+    .mobile-menu-nav {
+        margin-top: 72px;
+        margin-bottom: 168px;
+    }
+
+    .mobile-menu-nav-item:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .mobile-address-tel {
+        font-weight: 500;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+
+    .mobile-address-email {
+        font-weight: 500;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #4d5ae5;
+    }
+
+    .margin {
+        margin-bottom: 24px;
+    }
+
+    .menu-social-icon-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile-address-list {
+        margin-bottom: 48px;
+    }
+
+    .mobile-nav-link {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+
+    .mobile-menu-nav-firstlink {
+        color: #404bbf;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+    }
 
     /* ====== /MOBILE MENU STYLES ====== */
     /* ====== HERO STYLES ====== */
@@ -173,7 +227,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 
     .hero-section {
@@ -182,6 +235,7 @@
         background-repeat: no-repeat;
         background-position: center;
         max-width: 1440px;
+        max-height: 600px;
         padding-top: 72px;
         padding-bottom: 72px;
     }
@@ -193,6 +247,7 @@
         letter-spacing: 0.02em;
         color: #ffffff;
         margin-bottom: 72px;
+        text-align: center;
     }
 
     .hero-button {
