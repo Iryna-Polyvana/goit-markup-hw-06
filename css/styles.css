@@ -15,6 +15,7 @@
     img {
         display: block;
         max-width: 100%;
+        height: auto;
     }
 
     ul,
@@ -160,11 +161,6 @@
         fill: #2f2f37;
     }
 
-    .mobile-menu-section {
-        position: relative;
-        height: 100%;
-    }
-
     .mobile-menu-nav {
         margin-top: 72px;
         margin-bottom: 168px;
@@ -238,6 +234,8 @@
         max-height: 600px;
         padding-top: 72px;
         padding-bottom: 72px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .hero-title {
@@ -328,7 +326,7 @@
     }
 
     .team-card {
-        padding: 32px 0;
+        padding: 32px 16px;
         border-radius: 0 0 4px 4px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     }
@@ -401,6 +399,10 @@
         flex-direction: column;
         flex-wrap: wrap;
         column-gap: 48px;
+    }
+
+    .portfolio-item:not(:last-child) {
+        margin-bottom: 42px;
     }
 
     .text {
@@ -796,6 +798,10 @@
         max-width: 768px;
     }
 
+    .logo {
+        margin-right: 120px;
+    }
+
     /* ====== /COMMON STYLES ====== */
     /* ====== MOBILE MENU STYLES ====== */
     .mobile-menu-open-btn, .mobile-menu {
@@ -886,7 +892,7 @@
 
     /* ====== /HEADER STYLES ====== */
     /* ====== HERO STYLES ====== */
-    .hero-container {
+    .hero-section {
         padding-top: 112px;
         padding-bottom: 112px;
     }
@@ -931,6 +937,10 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 72px 24px;
+    }
+
+    .portfolio-item:not(:last-child) {
+        margin-bottom: 0;
     }
 
     /* ====== /PORTFOLIO STYLES ====== */
@@ -995,10 +1005,14 @@
         flex-direction: row;
     }
 
+    .logo {
+        margin-right: 76px;
+    }
+
     /* ====== /HEADER STYLES ====== */
 
     /* ====== HERO STYLES ====== */
-    .hero-container {
+    .hero-section {
         padding-top: 188px;
         padding-bottom: 188px;
     }
@@ -1055,6 +1069,11 @@
     .team-section {
         padding-top: 120px;
         padding-bottom: 120px;
+    }
+
+    .team-list {
+        flex-wrap: nowrap;
+        justify-content: center;
     }
 
     /* ====== /OUR TEAM STYLES ====== */
